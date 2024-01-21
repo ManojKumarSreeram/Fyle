@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+#heading{
+    text-align: center;
+}
+
+.search-bar {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#repositoriesList {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}.repo-details{
+    margin: 10px;
+    width: 350px;
+    border: 2px solid black;
+    padding: 10px;
+}
+
+#pagination {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+#perpagedetails{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+#loadingIndicator {
+    text-align: center;
+}
+
+.hidden {
+    display: none;
+}
+.git-user-name{
+    color: lightskyblue;
+    font-size: 25px;
+    font-weight: 700;
+}
+.topic-deta{
+    background-color: lightskyblue;
+    padding: 10px;
+    color: white;
+    margin: 10px;
+}
+.topic{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.no-topic{
+    color: blue;
+}
+
+.user-details{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.user-image{
+    height: 120px;
+    width: 120px;
+    background-color: #ccc;
+    border-radius: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 15px;
+}
